@@ -1,0 +1,76 @@
+.left-side-bar {
+    width: 15vw;
+    background: linear-gradient(to bottom, #0c0720, #291a83);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.left-side-bar a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.left-side-bar a.active {
+    font-weight: bold;
+}
+
+.image-area {
+    display: flex;
+    width: 0.5vw;
+}
+
+.logo-font {
+    /* color: linear-gradient(to bottom, #5f47ee, #89ffe3); */
+    width: 6vw;
+    height: 1.5vh;
+    top: 0.8vh;
+    left: 3vw;
+}
+
+.logo {
+    padding: 24px 32px;
+}
+
+.under-logo-font {
+    width: 3vw;
+    height: 1vh;
+    top: 2vh;
+    left: 4.5vw;
+}
+
+.swap {
+    position: absolute;
+    margin-left: 1.7vw;
+    top: 7.3vh;
+    width: 3vw;
+}
+
+.obust {
+    margin-top: 2.2vh;
+    width: 6.25vw;
+}
+
+.sidebar-button-group {
+    width: 100%;
+    height: 37.5vh;
+    padding: 0px 24px;
+    gap: 16px;
+}
+
+.sidebar-button-group link {
+    border-radius: 8px;
+    padding: 8px 16px;
+    gap: 10px;
+}
+
+.hr-style {
+    border-color: rgba(255, 255, 255, 0.4);
+    margin-right: 0.37vw;
+}

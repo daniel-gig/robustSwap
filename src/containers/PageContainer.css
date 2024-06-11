@@ -1,0 +1,9 @@
+.page-container {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 15vw;
+    flex: 1;
+    padding: 20px;
+}
